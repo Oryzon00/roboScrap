@@ -1,0 +1,61 @@
+
+MOVE:       amount / fromX / fromY / toX / toY  //// Pathfinding automatique.
+BUILD:      x / y                               //// Construit un recycleur sur une case libre contrôlée.
+SPAWN:      amount / x / y                      //// Ajoute des robots sur une case contrôlée.
+WAIT:                                           //// Ne fait rien.
+MESSAGE:    text                                //// Affiche un texte sur votre côté du HUD. 
+
+
+
+Toutes vos actions sur une ligne, séparées par un ;
+
+1 - BUILD
+2 - MOVE et SPAWN.
+3 - FIGHT
+4 - OWNING of tiles
+5 - RECYCLERS
+6 - Recyclers or robot on GRASS die
+7 - GAIN scraps + 10
+
+
+void	insert_matrix_into_matrix(char **to_insert, char **output, int *j)
+{
+	int i = 0;
+	while (to_insert[i])
+		output[*j] = to_insert[i];
+		(*j++);
+		i++;
+	free_matrix(to_insert);
+	return ;
+}
+
+char	**get_new_cmd(char **old)
+{
+	char **output = calloc();
+	int i = 0;
+	int	j = 0;
+	while(old[i])
+	{
+		if (no " &&  no ' && old[i][0] != '.'  )
+			insert_matrix_into_matrix(ft_expand_*(old[i]), output, &j);
+		else
+			output[j] = old[i];
+			j++
+		i++
+	}
+	free_matrix(old);
+	return (output);
+}
+
+int  get_size_matrix(char	**old)
+{
+	int i = 0;
+	while(old[i])
+	{
+		if (no " &&  no ' && '*')
+			i += nb_valid_filename();
+		else
+			i++;
+	}
+	return i;
+}
