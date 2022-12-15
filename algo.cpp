@@ -122,13 +122,34 @@ int main()
             }
         }
 
-/*------------------------------------------------------------------------------------------------------------------------------------------*/
+		//fonction utils:
+			// is_reachable ?
+			// is_empty?
+			// is_next_to ?
 
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+		// Move --> pathfinding automatique
+		// Build --> 10 scrap --> sur case controlée libre
+		// Spawn --> 10 scrap /robot --> sur case controlée
 		//algo elimination des jedis
 
 		
+		// fonction: rush B
+			// avance vers case adversaire avec unité > 0
+
+		// fonction: conquiert territoire disponible
+			//fonction qui detecte si case est attaignable ?
+				//pathfinding ?
 		
+		// fonction: ligne maginot
+			//si case libre et case alliée est a cote de case ennemie avec unité ennemie
+				// poser recycleur
 		
+		//tile_farm
+			// tile allié et vide
+			// tile North / Sud / West / East --> scrap amount > tile central
+		
+		//fonction pour s'etendre nord/sud durant rush initial
 
 
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
